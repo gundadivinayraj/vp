@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<audio id="bgMusic" >
+    <source src="music/song.mp3" type="audio/mpeg">
+</audio>
+
+<div id="hearts"></div>
+
+<!-- Welcome Page -->
+
+<section class="page active" id="page1">
+
+    <img src="images/1.jpg" class="welcome-image">
+
+    <div class="glass">
+
+        <h1>❤️ Welcome Pragna ❤️</h1>
+
+        <p>
+            I made something only for you...
+        </p>
+
+        <button onclick="nextPage()">
+            Begin ❤️
+        </button>
+
+    </div>
+
+</section>
+
+<!-- Letter -->
+
+<section class="page" id="page2">
+
+    <div class="glass">
+
+        <h1>💌 A Letter For You</h1>
+
+        <p class="letter">
+
+            I had made an unforgettable mistake.
+
+            <br><br>
+
+            I'm really feeling sad for it.
+
+            <br><br>
+
+            Please accept me.
+
+            <br><br>
+
+            I'll make you more happy than before.
+
+            <br><br>
+
+            Every memory with you is priceless.
+
+            <br><br>
+
+            I promise to love you even more than yesterday.
+
+            <br><br>
+
+            ❤️ Forever Yours ❤️
+
+        </p>
+
+        <button onclick="nextPage()">
+
+            Continue ❤️
+
+        </button>
+
+    </div>
+
+</section>
+
+<!-- Memories -->
+
+<section class="page" id="page3">
+
+    <h1>Our Beautiful Memories ❤️</h1>
+
+    <img id="slide" src="images/1.jpg">
+
+    <br>
+
+    <button id="playBtn">
+
+        🎵 Play Our Song
+
+    </button>
+
+    <br><br>
+
+    <button onclick="nextPage()">
+
+        Next ❤️
+
+    </button>
+
+</section>
+
+<!-- Final -->
+
+<section class="page" id="page4">
+
+    <div class="glass">
+
+        <h1>
+
+            Pragna ❤️
+
+        </h1>
+
+        <h2>
+
+            Will You Come On A Date With Me? 🌹
+
+        </h2>
+
+        <div class="buttons">
+
+            <button class="yes">
+
+                YES ❤️
+
+            </button>
+
+            <button class="no" id="noBtn">
+
+                NO 😜
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
